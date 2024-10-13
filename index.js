@@ -233,14 +233,14 @@ Tags.propTypes = {
   updateState: PropTypes.func,
   keysForTag: PropTypes.string,
   keysForTagsArray: PropTypes.arrayOf(PropTypes.string),
-  containerStyle: ViewPropTypes.style,
-  inputContainerStyle: ViewPropTypes.style,
-  inputStyle: TextInput.propTypes.style,
-  disabledInputStyle: ViewPropTypes.style,
-  leftElementContainerStyle: ViewPropTypes.style,
-  rightElementContainerStyle: ViewPropTypes.style,
-  labelStyle: Text.propTypes.style,
-  deleteIconStyles: ViewPropTypes.style,
+  containerStyle: PropTypes.any,
+  inputContainerStyle: PropTypes.any,
+  inputStyle: PropTypes.any,
+  disabledInputStyle: PropTypes.any,
+  leftElementContainerStyle: PropTypes.any,
+  rightElementContainerStyle: PropTypes.any,
+  labelStyle: PropTypes.any,
+  deleteIconStyles: PropTypes.any,
 };
 
 const styles = {
